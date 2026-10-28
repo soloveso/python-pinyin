@@ -68,7 +68,7 @@
     >>> lazy_pinyin('衣裳', style=Style.TONE3, neutral_tone_with_five=True)
     ['yi1', 'shang5']
     # 变调  nǐ hǎo -> ní hǎo
-    >>> lazy_pinyin('你好', style=Style.TONE2, tone_sandhi=True)
+    >>> pinyin('你好', style=Style.TONE2, tone_sandhi=True)
     ['ni2', 'ha3o']
 
 **注意事项** ：
